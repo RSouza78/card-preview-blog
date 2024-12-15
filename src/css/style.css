@@ -1,0 +1,84 @@
+html{
+  font-family: "Figtree", sans-serif;
+}
+
+main{
+    max-width: 1440px;
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao{
+    width: 384px;
+    height: 520px;
+    background-color: hsl(0, 0%, 100%); 
+    border-radius: 20px; 
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.cartao img{
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.informacoes{
+    padding: 20px;
+}
+
+
+.learning{
+    background-color: hsl(47, 88%, 63%);
+    width: 85px;
+    margin-top: -20px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: hsl(0, 0%, 7%);
+    font-size: 25px;
+    margin: 10px 0px;
+
+}
+
+h1:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.info{
+    margin-top: 30px;
+    color: hsl(0, 0%, 42%);
+}
+
+.autor{
+    display: flex;
+}
+
+.autor img{
+    width: 55px;
+    padding-left: 5px;
+}
+
+.autor p{
+    display: flex;
+    align-items: center;
+}
+
+.cartao .data{
+    color: hsl(0, 0%, 42%);
+}
+
+@media(max-width:375px){
+    .cartao{
+        width: 340px;
+    }
+
+    img{
+        width: 340px;
+    }
+}
